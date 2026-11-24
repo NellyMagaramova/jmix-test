@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainView xmlns="http://jmix.io/schema/flowui/main-view" title="Банк">
+    <appLayout>
+        <navigationBar>
+            <header id="header" classNames="bank-header">
+                <anchor href="." text="Главное окно" classNames="home-link"/>
+                <span text="Учебный банк" classNames="bank-title"/>
+                <span text="Тестовые карты" classNames="demo-label"/>
+            </header>
+        </navigationBar>
+        <initialLayout id="initialLayout" classNames="bank-home">
+            <vbox classNames="home-buttons" padding="false" spacing="false">
+                <button id="balanceButton" text="просмотр баланса" classNames="home-button balance-button"/>
+                <button id="transferButton" text="перевод между картами" classNames="home-button transfer-button"/>
+                <button id="cardsButton" text="пользователи" classNames="home-button cards-button"/>
+            </vbox>
+            <span text="Главное окно" classNames="window-caption"/>
+        </initialLayout>
+    </appLayout>
+</mainView>

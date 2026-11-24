@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view xmlns="http://jmix.io/schema/flowui/view" title="Перевод между картами">
+    <layout classNames="bank-panel transfer-panel" padding="false" spacing="false">
+        <vbox classNames="transfer-fields" padding="false">
+            <hbox classNames="card-row" width="100%" alignItems="CENTER"><span text="карта 1"/><textField id="fromField" ariaLabel="карта 1" maxLength="40" clearButtonVisible="true"/></hbox>
+            <hbox classNames="card-row" width="100%" alignItems="CENTER"><span text="карта 2"/><textField id="toField" ariaLabel="карта 2" maxLength="40" clearButtonVisible="true"/></hbox>
+            <hbox classNames="card-row" width="100%" alignItems="CENTER"><span text="Сумма, ₽"/><bigDecimalField id="amountField" ariaLabel="Сумма, ₽"/></hbox>
+            <button id="sendButton" text="перевести" classNames="send-button" disableOnClick="true"/>
+            <span id="feedback" classNames="feedback" ariaLive="polite"/>
+        </vbox>
+        <span text="окно 2" classNames="window-caption"/>
+    </layout>
+</view>

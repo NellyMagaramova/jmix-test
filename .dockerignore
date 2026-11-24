@@ -1,0 +1,5 @@
+**
+!Dockerfile
+!build/
+!build/libs/
+!build/libs/jmix-test-0.0.3-SNAPSHOT.jar

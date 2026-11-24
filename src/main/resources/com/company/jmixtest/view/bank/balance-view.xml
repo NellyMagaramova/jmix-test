@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view xmlns="http://jmix.io/schema/flowui/view" title="Просмотр баланса">
+    <layout classNames="bank-panel balance-panel" padding="false" spacing="false">
+        <textField id="numberField" label="номер карты" placeholder="Номер карты" maxLength="40" clearButtonVisible="true" classNames="number-field"/>
+        <hbox classNames="balance-content" width="100%">
+            <vbox classNames="owner-fields" padding="false" spacing="true">
+                <textField id="fioField" label="ФИО" readOnly="true" width="100%"/>
+                <span id="balanceValue" classNames="balance-value"/>
+                <span id="statusValue" classNames="card-status"/>
+            </vbox>
+            <vbox classNames="balance-actions" padding="false">
+                <button id="lookupButton" text="Посмотреть баланс" classNames="outline-button"/>
+                <button id="blockButton" text="Заблокировать карту" enabled="false" classNames="outline-button"/>
+                <button id="unblockButton" text="разблокировать карту" enabled="false" classNames="outline-button"/>
+            </vbox>
+        </hbox>
+        <span id="feedback" classNames="feedback" ariaLive="polite"/>
+        <span text="окно 3" classNames="window-caption"/>
+    </layout>
+</view>
