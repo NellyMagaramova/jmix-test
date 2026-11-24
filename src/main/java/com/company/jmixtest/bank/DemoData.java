@@ -23,6 +23,6 @@ public class DemoData implements CommandLineRunner {
                 "select c from bank_BankCard c left join fetch c.user order by c.number",
                 BankCard.class).getResultList();
 
-        System.out.println("Загружено карт: " + cards.size());
+        System.out.println("Count cards: " + cards.size());
     }
 }

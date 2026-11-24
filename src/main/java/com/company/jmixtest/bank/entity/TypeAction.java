@@ -40,8 +40,16 @@ public class TypeAction {
     }
 
 
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
-    public String getDenotation() { return denotation; }
-    public void setDenotation(String denotation) { this.denotation = denotation; }
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public String getDenotation() {
+        return denotation;
+    }
+    public void setDenotation(String denotation) {
+        this.denotation = denotation;
+    }
 }

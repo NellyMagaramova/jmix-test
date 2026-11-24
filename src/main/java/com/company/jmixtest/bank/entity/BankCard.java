@@ -51,20 +51,45 @@ public class BankCard {
 
     @Override
     public String toString() {
+
         return  number;
     }
 
 
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
-    public String getNumber() { return number; }
-    public void setNumber(String number) { this.number = number; }
-    public LocalDate getValidatyPeriod() { return validatyPeriod; }
-    public void setValidatyPeriod(LocalDate validatyPeriod) { this.validatyPeriod = validatyPeriod; }
-    public Boolean getStatus() { return status; }
-    public void setStatus(Boolean status) { this.status = status; }
-    public Long getBalance() { return balance; }
-    public void setBalance(Long balance) { this.balance = balance; }
-    public User getUser() { return user; }
-    public void setUser(User user) { this.user = user; }
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public String getNumber() {
+        return number;
+    }
+    public void setNumber(String number) {
+        this.number = number;
+    }
+    public LocalDate getValidatyPeriod() {
+        return validatyPeriod;
+    }
+    public void setValidatyPeriod(LocalDate validatyPeriod) {
+        this.validatyPeriod = validatyPeriod;
+    }
+    public Boolean getStatus() {
+        return status;
+    }
+    public void setStatus(Boolean status) {
+        this.status = status;
+    }
+    public Long getBalance() {
+        return balance;
+    }
+    public void setBalance(Long balance) {
+        this.balance = balance;
+    }
+    public User getUser() {
+        return user;
+    }
+    public void setUser(User user) {
+        this.user = user;
+    }
 }
