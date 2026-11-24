@@ -22,14 +22,19 @@ import java.math.BigDecimal;
 public class TransferView extends StandardView {
     @Autowired
     private BankFormsService bank;
+
     @ViewComponent
     private TextField fromField;
+
     @ViewComponent
     private TextField toField;
+
     @ViewComponent
     private BigDecimalField amountField;
+
     @ViewComponent
     private Span feedback;
+
     @ViewComponent
     private Button sendButton;
 
